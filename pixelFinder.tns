@@ -1,0 +1,36 @@
+
+#include <stdio.h>
+#include "parseScreenshot.h"
+#include <mouse.h>
+
+using namespace std;
+
+int findPixel(loc)
+{
+    int location[2560][1440];
+    location[0][0] = loc;
+    for (int i; i < 2560; i++)
+    {
+        for (int j; j < 2560; i++)
+        {
+            location[i][j] = -1;
+        }
+    }
+
+}
+
+int main()
+{
+    int screenshot = FILE * OPEN "screenshot.bmp", r;
+
+    findPixel(FILE);
+    if (findPixel.parseScreenshot:color3 == "red")
+    {
+        mouse.click(location = loc);
+    }
+
+
+    FILE * CLOSE
+
+    return 0;
+}
