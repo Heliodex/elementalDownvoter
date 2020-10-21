@@ -16,6 +16,8 @@ int main()
 {
 	
 	// write code here //
+	
+	os.call(~/elementalDownvoter/pixelFinder.tns)
 
 	return 0;
 }
